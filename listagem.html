@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leilao</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+<!--inicio topo superior-->
+<div class="super-topo">
+<div class="super-topo-box">
+<div class="super-topo-box-corpo">
+<!--Inicio coluna 1 topo superior-->
+<div class="col-1">
+    <span> <i class='bx bxs-envelope'></i> Leiao@gmail.com</span>
+    <span> <i class='bx bxs-phone-call'></i> (41)9777-7777</span>
+    <span> <i class='bx bx-alarm'></i> data </span>
+</div>
+<!--Inicio coluna 2 topo superior-->
+<div class="col-2">
+    <a href="" title=""> <i class='bx bx-arrow-to-right'></i> Entrar</a>
+    <a href="" title=""> <i class='bx bx-user'></i> Cadastre-se</a>
+    <span>Siga-nos :</span>
+    <div class="social">
+        <a href="" title=""><i class='bx bxl-facebook-circle'></i></a>
+        <a href="" title=""><i class='bx bxl-instagram'></i></a>
+        <a href="" title=""><i class='bx bxl-whatsapp'></i></a>
+        <a href="" title=""><i class='bx bxl-youtube'></i></a>
+    </div>
+</div>
+<!--Inicio coluna 2 topo superior-->
+</div>
+</div>
+</div>
+<!--fim topo superior-->
+<!--inicio cabecalho-->
+<header class="topo-menu-site">
+    <figure class="logo">
+    <img src="assets/img/logo/logo.png" alt="leilao">
+    </figure>   
+<!--inicio menu site-->
+    <nav>
+    <div class="menuSite">
+        <ul class="menulinks">
+            <li><a href="index.html" title="" class="active">Inicio</a></li>
+            <li><a href="" title="" >Empresa <i class='bx bxs-chevron-down'></i></a>
+        <ul class="menuSub">
+            <li><a href="" title="">Termos de Serviços</a></li>
+            <li><a href="" title="">Politica de Privacidade</a></li>
+            <li><a href="" title="">Politica de Privacidade</a></li>
+            <li><a href="" title="">Politica de Privacidade</a></li>
+            <li><a href="" title="">Politica de Privacidade</a></li>
+            <li><a href="" title="">Politica de Privacidade</a></li>
+        </ul>
+    </li>
+    <li><a href="categorias.html" title="">Categorias <i class='bx bxs-chevron-down'></i> </a>
+        <ul class="menuSub">
+            <li><a href="categorias.html" title="">Grade</a></li>
+            <li><a href="listagem.html" title="">Listagem</a></li>
+            <li><a href="anuncio.html" title="">Anuncio</a></li>
+            <li><a href="" title="">Carros</a></li>
+            <li><a href="" title="">Venda Direta</a></li>
+            <li><a href="" title="">Leilao</a></li>
+        </ul>
+    </li>
+    <li><a href="" title="" >Paginas <i class='bx bxs-chevron-down'></i></a>
+        <ul class="menuSub">
+            <li><a href="" title="">teste</a></li>
+            <li><a href="" title="">Minha Conta<i class='bx bxs-chevron-down setabaixo'></i></a>
+                <ul class="menuSub2">
+                    <li><a href="" title="">teste</a></li>
+                    <li><a href="" title="">teste</a></li>
+                    <li><a href="" title="">teste</a></li>
+                </ul>
+            </li>
+            <li><a href="" title="">teste</a></li>
+        </ul>
+    </li>
+    <li><a href="" title="" >Loja</a></li>
+    <li><a href="" title="" >Blog</a></li>
+    <li><a href="" title="" >Contato</a></li>
+</ul>
+<div class="menuAnunciar">
+    <i class='bx bx-search'></i>
+    <i class='bx bx-cart-download cart'></i>
+    <button class="addBtn"><i class='bx bx-plus'></i>Anuncio</button>
+    <i class='bx bx-menu' id="menuBtn" ></i>
+</div>
+</div>
+</nav>
+<!--fim menu site-->
+</header>
+<!--fim cabeçalho-->
+<!--  topo pafinas-->
+<div class="categorias-carros">
+    <h2>Listagem de veiculos</h2>
+    <div class="link">
+        <a href="index.html" title="">Inicio</a>
+        <span> >> </span> 
+        <p>lista de veiculos</p>
+    </div>
+</div>
+<!-- fim topo paginas -->
+<!-- inicio filtro veicuos -->
+    <section class="carrosRecentes cats">
+        <div class="col-1">
+            <form action="" method="post">
+                <div class="cat-col"> 
+                    <h5>Pesquisa</h5>
+                    <div class="filtro-busca">
+                        <input type="text" name="" class="filtro-cat" placeholder="Busca">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+
+                <div class="cat-col"> 
+                    <h5>Marcas</h5>
+                    <div class="caixaBusca">
+                        <input type="checkbox" name="" id="">Ferrari <br>
+                        <input type="checkbox" name="" id="">bmw <br>
+                        <input type="checkbox" name="" id="">fiat <br>
+                        <input type="checkbox" name="" id="">toyta <br>
+                        <input type="checkbox" name="" id="">mercedes <br>
+                    </div>
+                </div>
+
+                <div class="cat-col"> 
+                    <h5>Cambio</h5>
+                    <div class="caixaBusca">
+                        <input type="checkbox" name="" id="">Manual<br>
+                        <input type="checkbox" name="" id="">Automatico<br>
+                    </div>
+                </div>
+
+                <div class="cat-col"> 
+                    <h5>Combustivel</h5>
+                    <div class="caixaBusca">
+                        <input type="checkbox" name="" id="">flex<br>
+                        <input type="checkbox" name="" id="">Gasolina<br>
+                        <input type="checkbox" name="" id="">alcool<br>
+                        <input type="checkbox" name="" id="">disel<br>
+                    </div>
+                </div>
+
+                <div class="cat-col"> 
+                    <h5>Acessorios</h5>
+                    <div class="caixaBusca">
+                        <input type="checkbox" name="" id="">Ar Condicionado<br>
+                        <input type="checkbox" name="" id="">Airbag<br>
+                        <input type="checkbox" name="" id="">Direçao hidraulica<br>
+                        <input type="checkbox" name="" id="">Direçao Manual<br>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div class="col-2">
+            <div class="cat-veiculos-top">
+                <span>Mostrar do 1 ao 10 de 50 veiculos </span>
+                <div class="cat-v-outros">
+                    <i class="bx bx-grid-alt grade"></i>
+                    <i class="bx bx-menu"></i>
+                </div>
+                <form action="" method="post">
+                    <select name="" id="">
+                        <option value="">Menor valor</option>
+                        <option value="">Maior valor</option>
+                    
+                    </select>
+                </form>
+            </div>
+
+            <div class="cr-linha linha listagem-carros">
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/1.jpg" alt="">
+                    </div>
+                    
+                        <div class="listaM">
+                            <h5>ferrari 777</h5>
+                            <div class="classificacao">
+                                <div class="cl-estrelas">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="cl-ct-estrelas">
+                                    <span>5.0(5.7 Classificações)</span>
+                                </div>
+                            </div>
+                            <div class="cr-info">
+                                <span><i class='bx bx-info-circle'></i> 4 portas</span>
+                                <span><i class='bx bx-label'></i> 77.77km</span>
+                                <span><i class='bx bx-car'></i> Modelo 2030</span>
+                                <span><i class='bx bx-gas-pump' ></i> flex</span>
+                            </div>
+                            <p class="texto">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Optio harum animi alias porro quae enim commodi sed voluptate,
+                                autem blanditiis placeat perferendis deseruntratione modi aspernatur voluptas!
+                                Laudantium, eligendi pariatur!
+                            </p>
+                            <div class="cr-valor">
+                                <p>R$ 777,77</p>
+                                <a href="">Vizualizar</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/2.jpg" alt="">
+                    </div>
+                    
+                        <div class="listaM">
+                            <h5>ferrari 777</h5>
+                            <div class="classificacao">
+                                <div class="cl-estrelas">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="cl-ct-estrelas">
+                                    <span>5.0(5.7 Classificações)</span>
+                                </div>
+                            </div>
+                            <div class="cr-info">
+                                <span><i class='bx bx-info-circle'></i> 4 portas</span>
+                                <span><i class='bx bx-label'></i> 77.77km</span>
+                                <span><i class='bx bx-car'></i> Modelo 2030</span>
+                                <span><i class='bx bx-gas-pump' ></i> flex</span>
+                            </div>
+                            <p class="texto">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Optio harum animi alias porro quae enim commodi sed voluptate,
+                                autem blanditiis placeat perferendis deseruntratione modi aspernatur voluptas!
+                                Laudantium, eligendi pariatur!
+                            </p>
+                            <div class="cr-valor">
+                                <p>R$ 777,77</p>
+                                <a href="">Vizualizar</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/3.jpg" alt="">
+                    </div>
+                    
+                        <div class="listaM">
+                            <h5>ferrari 777</h5>
+                            <div class="classificacao">
+                                <div class="cl-estrelas">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="cl-ct-estrelas">
+                                    <span>5.0(5.7 Classificações)</span>
+                                </div>
+                            </div>
+                            <div class="cr-info">
+                                <span><i class='bx bx-info-circle'></i> 4 portas</span>
+                                <span><i class='bx bx-label'></i> 77.77km</span>
+                                <span><i class='bx bx-car'></i> Modelo 2030</span>
+                                <span><i class='bx bx-gas-pump' ></i> flex</span>
+                            </div>
+                            <p class="texto">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Optio harum animi alias porro quae enim commodi sed voluptate,
+                                autem blanditiis placeat perferendis deseruntratione modi aspernatur voluptas!
+                                Laudantium, eligendi pariatur!
+                            </p>
+                            <div class="cr-valor">
+                                <p>R$ 777,77</p>
+                                <a href="">Vizualizar</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/4.jpg" alt="">
+                    </div>
+                    
+                        <div class="listaM">
+                            <h5>ferrari 777</h5>
+                            <div class="classificacao">
+                                <div class="cl-estrelas">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="cl-ct-estrelas">
+                                    <span>5.0(5.7 Classificações)</span>
+                                </div>
+                            </div>
+                            <div class="cr-info">
+                                <span><i class='bx bx-info-circle'></i> 4 portas</span>
+                                <span><i class='bx bx-label'></i> 77.77km</span>
+                                <span><i class='bx bx-car'></i> Modelo 2030</span>
+                                <span><i class='bx bx-gas-pump' ></i> flex</span>
+                            </div>
+                            <p class="texto">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Optio harum animi alias porro quae enim commodi sed voluptate,
+                                autem blanditiis placeat perferendis deseruntratione modi aspernatur voluptas!
+                                Laudantium, eligendi pariatur!
+                            </p>
+                            <div class="cr-valor">
+                                <p>R$ 777,77</p>
+                                <a href="">Vizualizar</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/5.jpg" alt="">
+                    </div>
+                    
+                        <div class="listaM">
+                            <h5>ferrari 777</h5>
+                            <div class="classificacao">
+                                <div class="cl-estrelas">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="cl-ct-estrelas">
+                                    <span>5.0(5.7 Classificações)</span>
+                                </div>
+                            </div>
+                            <div class="cr-info">
+                                <span><i class='bx bx-info-circle'></i> 4 portas</span>
+                                <span><i class='bx bx-label'></i> 77.77km</span>
+                                <span><i class='bx bx-car'></i> Modelo 2030</span>
+                                <span><i class='bx bx-gas-pump' ></i> flex</span>
+                            </div>
+                            <p class="texto">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Optio harum animi alias porro quae enim commodi sed voluptate,
+                                autem blanditiis placeat perferendis deseruntratione modi aspernatur voluptas!
+                                Laudantium, eligendi pariatur!
+                            </p>
+                            <div class="cr-valor">
+                                <p>R$ 777,77</p>
+                                <a href="">Vizualizar</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/6.jpg" alt="">
+                    </div>
+                    
+                        <div class="listaM">
+                            <h5>ferrari 777</h5>
+                            <div class="classificacao">
+                                <div class="cl-estrelas">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="cl-ct-estrelas">
+                                    <span>5.0(5.7 Classificações)</span>
+                                </div>
+                            </div>
+                            <div class="cr-info">
+                                <span><i class='bx bx-info-circle'></i> 4 portas</span>
+                                <span><i class='bx bx-label'></i> 77.77km</span>
+                                <span><i class='bx bx-car'></i> Modelo 2030</span>
+                                <span><i class='bx bx-gas-pump' ></i> flex</span>
+                            </div>
+                            <p class="texto">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Optio harum animi alias porro quae enim commodi sed voluptate,
+                                autem blanditiis placeat perferendis deseruntratione modi aspernatur voluptas!
+                                Laudantium, eligendi pariatur!
+                            </p>
+                            <div class="cr-valor">
+                                <p>R$ 777,77</p>
+                                <a href="">Vizualizar</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/7.jpg" alt="">
+                    </div>
+                    
+                        <div class="listaM">
+                            <h5>ferrari 777</h5>
+                            <div class="classificacao">
+                                <div class="cl-estrelas">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="cl-ct-estrelas">
+                                    <span>5.0(5.7 Classificações)</span>
+                                </div>
+                            </div>
+                            <div class="cr-info">
+                                <span><i class='bx bx-info-circle'></i> 4 portas</span>
+                                <span><i class='bx bx-label'></i> 77.77km</span>
+                                <span><i class='bx bx-car'></i> Modelo 2030</span>
+                                <span><i class='bx bx-gas-pump' ></i> flex</span>
+                            </div>
+                            <p class="texto">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Optio harum animi alias porro quae enim commodi sed voluptate,
+                                autem blanditiis placeat perferendis deseruntratione modi aspernatur voluptas!
+                                Laudantium, eligendi pariatur!
+                            </p>
+                            <div class="cr-valor">
+                                <p>R$ 777,77</p>
+                                <a href="">Vizualizar</a>
+                            </div>
+                        </div>
+                </div>
+                
+                <br>
+            </div>
+
+            <div class="paginacao">
+                <span class="p-numero"><i class='bx bx-left-arrow-alt' ></i></span>
+                <span>1</span>
+                <span class="p-numero">2</span>
+                <span class="p-numero">3</span>
+                <span class="p-numero"><i class='bx bx-right-arrow-alt' ></i></span>
+            </div>
+        </div>
+
+
+    </section>
+<!-- fim filtro veiculs-->
+<!--  -->
+
+<!--  -->
+<!--  -->
+
+<!--  -->
+<!--  -->
+
+<!--  -->
+<!--  -->
+
+<!--  -->
+<!--  -->
+
+<!--  -->
+<!--  -->
+
+<!--  -->
+<!--footer -->
+<footer class="rodape">
+    <div class="rodape-linha">
+        <div class="rodape-col">
+            <figure>
+                <img src="assets/img/logo/LOG-MSVEICULOS.jpg" alt="">
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quas? Aspernatur veritatis voluptatibus labore expedita totam cum quas asperiores maiores vero ut. Rerum, at unde? </p>
+            <span><i class="bx bx-phone"></i>(41)7777-7777</span>
+            <span><i class="bx bx-location-plus"></i>rua xxxx</span>
+            <span><i class="bx bxs-envelope"></i>@gmail.com</span>
+        </div>
+        <div class="rodape-col">
+            <h5>informacoes</h5>
+            <a href="" title=""><i class="bx bx-chevron-right"></i> Sobre nós</a>            
+            <a href="" title=""><i class="bx bx-chevron-right"></i> Blog</a>            
+            <a href="" title=""><i class="bx bx-chevron-right"></i> Videos</a>            
+            <a href="" title=""><i class="bx bx-chevron-right"></i> Politica De Privacidade</a>            
+            <a href="" title=""><i class="bx bx-chevron-right"></i> Termos de serviço</a>                       
+        </div>
+        <div class="rodape-col">
+            <h5>Suporte</h5>
+            <a href="" title=""><i class="bx bx-chevron-right"></i> Perguntas</a>            
+            <a href="" title=""><i class="bx bx-chevron-right"></i> Revendas</a>            
+            <a href="" title=""><i class="bx bx-chevron-right"></i> Acessorios</a>            
+            <a href="" title=""><i class="bx bx-chevron-right"></i> Miha Conta</a>            
+            <a href="" title=""><i class="bx bx-chevron-right"></i> Fale Conosco</a>              
+        </div>
+        <div class="rodape-col">
+            <h5>Boletim informativo</h5>
+            <p class="texto"> Receba novidades</p>
+            <form action="" method="post">
+                <input type="text" name="emal" placeholder="seu melhor email">
+                <button type="submit">Quero me cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <div class="rodape-direitos">
+        <p>&copy; desde 2010 <span>Leilao</span> Todos os direitos Reservados</p>
+        <div class="rodape-redes">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-whatsapp'></i>
+            <i class='bx bxl-youtube'></i>
+            <i class='bx bxl-linkedin'></i>
+        </div>
+    </div>
+</footer>
+<!-- -->
+<!-- -->
+
+<!-- -->
+<!-- -->
+
+<!-- -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="assets/js/ms.js"></script>
+</body>
+</html>
